@@ -11,7 +11,7 @@ function wait(ms){
   }
 }
 
-it('renders without crashing', () => {
+it('renders change without crashing', () => {
   const i = document.createElement('i');
   ReactDOM.render(<App />, i);
   ReactDOM.unmountComponentAtNode(i);
