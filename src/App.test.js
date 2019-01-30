@@ -15,7 +15,6 @@ it('renders without crashing', () => {
   const i = document.createElement('i');
   ReactDOM.render(<App />, i);
   ReactDOM.unmountComponentAtNode(i);
-  return false
 });
 
 
