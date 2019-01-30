@@ -12,9 +12,10 @@ function wait(ms){
 }
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+  const i = document.createElement('i');
+  ReactDOM.render(<App />, i);
+  ReactDOM.unmountComponentAtNode(i);
+  return false
 });
 
 
