@@ -11,7 +11,7 @@ function wait(ms){
   }
 }
 
-it('renders change without crashing', () => {
+it('renders change without crashing 1', () => {
 
   const i = document.createElement('i');
   ReactDOM.render(<App />, i);
