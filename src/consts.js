@@ -1,1 +1,1 @@
-export const delayTests = 11000;
+export const delayTests = 8000;
