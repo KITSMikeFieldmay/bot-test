@@ -26,7 +26,7 @@ it('renders without crashing 2', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('renders without crashing', () => {
+it('renders without crashing 3', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
   wait(delayTests)
