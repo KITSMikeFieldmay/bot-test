@@ -11,7 +11,7 @@ function wait(ms){
   }
 }
 
-it('renders without crashing', () => {
+it('renders without crashing 1', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
   wait(delayTests)
