@@ -11,7 +11,7 @@ function wait(ms){
   }
 }
 
-it('renders change without crashing 1', () => {
+it('renders change without crashing 11', () => {
 
   const i = document.createElement('i');
   ReactDOM.render(<App />, i);
@@ -19,7 +19,7 @@ it('renders change without crashing 1', () => {
 });
 
 
-it('renders without crashing 2', () => {
+it('renders without crashing 22', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
   wait(delayTests)
