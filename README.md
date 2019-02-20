@@ -1,3 +1,3 @@
 # bot-test
-test merge bot 
+playground for merge bot 
 
